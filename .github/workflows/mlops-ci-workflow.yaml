@@ -76,6 +76,6 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: sandeshmoredev/fastapi:{{ github.sha }}
+        tags: sandeshmoredev/fastapi:${{ github.sha }}
 
     
